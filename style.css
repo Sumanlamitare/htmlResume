@@ -116,6 +116,7 @@ progress {
   /* width: auto; */
 }
 #jobtitle {
+  text-decoration: underline;
   display: inline;
   line-height: 0;
   font-weight: bold;
@@ -141,6 +142,7 @@ progress {
 }
 #collegeName {
   font-weight: bold;
+  text-decoration: underline;
 }
 #program {
   font-style: italic;
@@ -153,6 +155,7 @@ progress {
 
 #projectTitle {
   font-weight: bold;
+  text-decoration: underline;
 }
 #technologies {
   font-style: italic;
