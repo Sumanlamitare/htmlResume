@@ -1,0 +1,179 @@
+body {
+  background-color: burlywood;
+}
+.mainDiv {
+  /* border: solid blue; */
+  display: flex;
+  height: auto;
+  /* justify-content: space-between; */
+}
+.profileSection {
+  background-color: firebrick;
+  /* border: solid saddlebrown; */
+  /* height: auto; */
+  width: 400px;
+  display: inline-block;
+}
+
+.profilePicture {
+  background-image: url("/images/PP\ placeholder.jpg");
+  background-size: cover;
+  /* border: solid green; */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.personalInfo {
+  text-align: center;
+  /* border: solid white; */
+  height: auto;
+  width: auto;
+  margin: 1em;
+}
+.personalInfo p {
+  line-height: 0px;
+}
+.personalInfo p:hover {
+  transform: scale(1.1);
+}
+.profilePicture:hover {
+  transform: scale(1.5);
+}
+.about {
+  /* border: solid yellow; */
+  height: auto;
+  width: auto;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 2em;
+}
+.about h1 {
+  text-decoration: overline underline;
+  text-align: center;
+}
+progress {
+  align-self: center;
+  border: 0.5px solid green;
+  height: 5px;
+  width: 50%;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.skills h1 {
+  /* border: solid grey; */
+  /* display: inline-block; */
+  text-decoration: underline overline;
+  text-align: center;
+}
+
+.icons {
+  /* border: solid lightblue; */
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin: 0;
+  justify-self: center;
+  justify-content: space-around;
+  margin: 1em;
+}
+.icon {
+  /* border: solid blue; */
+  width: 25px;
+  height: 25px;
+  /* border-radius: 100%; */
+}
+#linkedin img {
+  height: 100%;
+  width: 100%;
+}
+#email img {
+  height: 100%;
+  width: 100%;
+}
+#github img {
+  height: 100%;
+  width: 100%;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.information {
+  /* border: 30px solid red; */
+  width: auto;
+  height: auto;
+  margin: 0.5em;
+  margin-left: 2em;
+  /* display: inline-block; */
+}
+.work {
+  /* text-align:start; */
+  /* border: solid green; */
+  /* margin: 1em; */
+  height: auto;
+  /* width: auto; */
+}
+#jobtitle {
+  display: inline;
+  line-height: 0;
+  font-weight: bold;
+}
+#companyname {
+  line-height: 0;
+  font-style: italic;
+  margin-left: 5px;
+}
+#worklabel {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline overline;
+}
+.work li {
+  list-style: square;
+}
+
+#educationlabel {
+  text-align: center;
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+#collegeName {
+  font-weight: bold;
+}
+#program {
+  font-style: italic;
+  list-style: square;
+}
+#year {
+  font-style: italic;
+  list-style: disc;
+}
+
+#projectTitle {
+  font-weight: bold;
+}
+#technologies {
+  font-style: italic;
+  line-height: 0px;
+}
+.projects li {
+  list-style-type: square;
+}
+.projectsLabel {
+  text-align: center;
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+.referenceLabel {
+  text-align: center;
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+.references p {
+  text-align: center;
+}
+hr {
+  border: 2px solid black;
+}
